@@ -17,7 +17,11 @@
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <label for="" class="label-control">Body</label>
-                    <input name="body" [(ngModel)]="body" type="text" class="form-control">
+
+                    <textarea name="body" [(ngModel)]="body" id="" cols="30" rows="10" class="form-control"></textarea>
+                    
+                    <!-- <input name="body" [(ngModel)]="body" type="text" class="form-control"> -->
+                
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <button (click)="readValues()" class="btn btn-primary">Submit</button>
